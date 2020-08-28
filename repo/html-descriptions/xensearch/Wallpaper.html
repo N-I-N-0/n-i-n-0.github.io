@@ -1,0 +1,114 @@
+<html>
+    <head>
+        <title>XenSearch</title>
+        <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+        <link rel="stylesheet" href="main.css" type="text/css" media="screen"/>
+        <style type="text/css" id="optionsStyles"></style>
+    </head>
+
+    <body>
+        <div class="xenSearchBar" id="bar">
+            <form onsubmit="return false;">
+                <table>
+                    <tr>
+                        <td class="icon" style="height: 40px;">
+                            <img id="searchImg" src="icons/safari.png" width="25px" onclick="changeHeight()">
+                        </td>
+                        <td>
+                            <input id="search" type="text" class="searchInput" placeholder="Search …"></input>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+            <div class="settings" id="settingsDiv">
+                <table>
+                    <tr>
+                        <td class="headline" colspan=8><hr />Browser</td>
+                    </tr>
+                    <tr>
+                        <td class="icon">
+                            <img id="safari" src="icons/safari.png" width="25px" onclick="app(this.id)">
+                        </td>
+                        <td class="icon">
+                            <img id="google" src="icons/google.png" width="25px" onclick="app(this.id)">
+                        </td>
+                        <td class="icon">
+                            <img id="chrome" src="icons/chrome.png" width="25px" onclick="app(this.id)">
+                        </td>
+                        <td class="icon">
+                            <img id="firefox" src="icons/firefox.png" width="25px" onclick="app(this.id)">
+                        </td>
+                        <td class="icon">
+                            <img id="opera" src="icons/opera.png" width="25px" onclick="app(this.id)">
+                        </td>
+                        <td class="icon">
+                            <img id="edge" src="icons/edge.png" width="25px" onclick="app(this.id)">
+                        </td>
+                        <td class="icon">
+                            <img id="duckduckgo" src="icons/duckduckgo.png" width="25px" onclick="app(this.id)">
+                                </td>
+                        <td class="icon">
+                            <img id="aloha" src="icons/aloha.png" width="25px" onclick="app(this.id)">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="headline" colspan=8><hr />Search Engine for Chrome, Firefox, Opera, Edge and Aloha</td>
+                    </tr>
+                    <tr>
+                        <td class="icon"></td>
+                        <td class="icon">
+                            <img id="googleEngine" src="icons/google.png" width="25px" onclick="searchEngine(this.id)">
+                        </td>
+                        <td class="icon">
+                            <img id="bing" src="icons/bing.png" width="25px" onclick="searchEngine(this.id)">
+                        </td>
+                        <td class="icon">
+                            <img id="yahoo" src="icons/yahoo.png" width="25px" onclick="searchEngine(this.id)">
+                        </td>
+                        <td class="icon">
+                            <img id="yandex" src="icons/yandex.png" width="25px" onclick="searchEngine(this.id)">
+                        </td>
+                        <td class="icon">
+                            <img id="baidu" src="icons/baidu.png" width="25px" onclick="searchEngine(this.id)">
+                        </td>
+                        <td class="icon">
+                            <img id="duckduckgoEngine" src="icons/duckduckgo.png" width="25px" onclick="searchEngine(this.id)">
+                        </td>
+                        <td class="icon"></td>
+                    </tr>
+                    <tr>
+                        <td class="headline" colspan=8><hr />Other Applications</td>
+                    </tr>
+                    <tr>
+                        <td class="icon">
+                            <img id="appStore" src="icons/appstore.png" width="25px" onclick="app(this.id)">
+                        </td>
+                        <td class="icon">
+                            <img id="youTube" src="icons/youtube.png" width="25px" onclick="app(this.id)">
+                        </td>
+                        <td class="icon">
+                            <img id="spotify" src="icons/spotify.png" width="25px" onclick="app(this.id)">
+                        </td>
+                        <td class="icon">
+                            <img id="instagramHashtag" src="icons/instagram1.png" width="25px" onclick="app(this.id)">
+                        </td>
+                        <td class="icon">
+                            <img id="instagramProfil" src="icons/instagram2.png" width="25px" onclick="app(this.id)">
+                        </td>
+                        <td class="icon">
+                            <img id="snapchat" src="icons/snapchat.png" width="25px" onclick="app(this.id)">
+                        </td>
+                        <td class="icon">
+                            <img id="twitter" src="icons/twitter.png" width="25px" onclick="app(this.id)">
+                        </td>
+                        <td class="icon">
+                            <img id="cydia" src="icons/cydia.png" width="25px" onclick="app(this.id)">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <script type="text/javascript" charset="utf-8" src="Config.js"></script>
+        <script type="text/javascript" charset="utf-8" src="main.js"></script>
+    </body>
+</html>
